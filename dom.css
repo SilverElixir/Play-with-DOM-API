@@ -1,0 +1,60 @@
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin-left: 20px;
+	background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+figcaption {
+	margin-top: 1em;
+	padding-right: 30%;
+	padding-left: 1em;
+	font-style: italic;
+
+	color: grey;
+	border-left: 2px solid grey;
+}
+
+/*.post-img:hover{
+	background: url('success.jpg');
+	width: 150px:
+	height: 150px;
+}*/
+
+article:hover * {
+  box-shadow: 1px 1px 3px 1px #dddddd;
+  color: #004e98;
+  background-color: #ddd;
+}
+
+.post-title {
+    margin-bottom: 0em;
+    font-size: 180%;
+}
+
+.post-time {
+    color: hsl(0, 0%, 45%);
+}
+
+.delete-button {
+	padding: .5em 1em;
+	border: 3px solid #B51C35;
+	/*border-radius: 10px;*/
+	color: black;
+/*	text-decoration: none;*/
+}
+
+.delete-button:focus,
+.delete-button:hover {
+	background: #B51C35;
+	color: #FFFCED;
+}
